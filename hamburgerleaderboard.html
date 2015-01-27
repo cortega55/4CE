@@ -1,0 +1,65 @@
+<html><head>
+    <title>4CE Challenge</title>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no">
+    <!--Using jQuery and jQuery UI for display effects-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><style type="text/css"></style>
+    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+
+    <!--Using the hamburger menu display code-->
+    <script src="hamburger.js"></script>
+
+    <!--Using Media Queries, if the viewport is smaller than 700px use another stylesheet-->
+    <link rel="stylesheet" type="text/css" media="all" href="hamburger.css">
+</head>
+
+<body>
+
+<!--This wrapping container is used to get the width of the whole content-->
+<div id="container" style="margin-left: -1px;">
+
+    <!--The Hamburger Button in the Header-->
+     <header>
+       <div id="head">
+         <div id= "contact">
+        <ul>
+            <li><a href="hamburgerabout.html">About</a></li>
+            <li><a href="hamburgercontact.html">Contact Us</a></li>
+        </ul>
+        </div>  
+        <div id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        </div> 
+    </header>
+
+    <!--The mobile navigation Markup hidden via css-->
+       <nav style="opacity: 0;">
+        <ul>
+            <li><a href="hamburgerhome.html">Home</a></li>
+            <li><a href="hamburgerleaderboard.html">Leaderboard</a></li>
+            <li><a href="hamburgerchallenge.html">Challenge Friends</a></li>
+            <li><a href="hamburgerprofile.html">Profile</a></li>
+            <li><a href="hamburgerlogin.html">Sign In</a></li>
+            <li><a href="hamburgersignup.html">Register</a></li>
+        </ul>
+    </nav>
+
+    <!--The Layer that will be layed over the content
+    so that the content is unclickable while menu is shown-->
+    <div id="contentLayer" style="display: none;"></div>
+
+    <!--The content of the site-->
+    <div id="content" style="min-height: 633px; width: auto;">
+        <h1>Leaderboard</h1>
+
+        <h2>djsfjsdlk</h2>
+
+        
+        
+    </div>
+
+</div>
+
+</body></html>
